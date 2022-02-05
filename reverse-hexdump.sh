@@ -3,6 +3,7 @@
 # Copyright (c) 2020 Mike Fleetwood
 # FILE: reverse-hexdump.sh
 # Reverse 'hexdump -C' output back to the original data.
+# USAGE: reverse-hexdump.sh [FILE]... > DEST
 
 LANG=C awk '
 function outputbinary(text)

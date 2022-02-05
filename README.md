@@ -5,7 +5,16 @@ reverse-hexdump
 ===============
 
 `reverse-hexdump.sh` is a small shell/awk tool to reverse `hexdump -C`
-output back to the original data.
+output back to the original data.  The command reads from standard input
+or named files and writes to standard output.
+
+
+Usage
+-----
+
+```
+reverse-hexdump.sh [FILE]... > DEST
+```
 
 
 Example
