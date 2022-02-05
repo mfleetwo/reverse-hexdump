@@ -34,7 +34,7 @@ drive.
 
 # fdisk -l /dev/sdb
 
-Disk /dev/md2: 536 MB, 536330240 bytes, 1047520 sectors
+Disk /dev/sdb: 536 MB, 536330240 bytes, 1047520 sectors
 Units = sectors of 1 * 512 = 512 bytes
 Sector size (logical/physical): 512 bytes / 512 bytes
 I/O size (minimum/optimal): 512 bytes / 512 bytes
@@ -42,5 +42,5 @@ Disk label type: dos
 Disk identifier: 0x00056bf3
 
     Device Boot      Start         End      Blocks   Id  System
-/dev/md2p1            2048     1046527      522240   83  Linux
+/dev/sdb1             2048     1046527      522240   83  Linux
 ```
